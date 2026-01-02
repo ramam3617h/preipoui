@@ -4,8 +4,8 @@ import { Search, TrendingUp, Building2, Calendar, Users, DollarSign, ShoppingCar
 // ============================================
 // API CONFIGURATION
 // ============================================
-const API_URL = process.env.REACT_APP_API_URL || 'http://localhost:5000/api';
-
+//const API_URL = process.env.REACT_APP_API_URL || 'http://localhost:5000/api';
+ const  API_URL ='https://preipo-760b135bcf41.herokuapp.com/api';
 const api = {
   register: async (data) => {
     const response = await fetch(`${API_URL}/auth/register`, {
